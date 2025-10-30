@@ -1,10 +1,11 @@
 {
-  "name": "architecturedummy",
+  "name": "clean-architecture-ts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "dev": "tsx main.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,9 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^24.9.2",
-    "typescript": "^5.9.3"
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.5"
   }
 }
